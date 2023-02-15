@@ -1,6 +1,7 @@
 package ibanBsp;
 
 import java.io.InputStream;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class IbanDemo {
@@ -18,5 +19,7 @@ public class IbanDemo {
         System.out.println("Kontonummer: " + ibanVal.getAccountNumber());
         System.out.println(ibanVal.getCountyCodeNumber());
         System.out.println("Prüfzahl: " + ibanVal.getFullCode());
+        System.out.println();
+        System.out.println(Arrays.toString(ibanVal.buildArray()));
     }
 }

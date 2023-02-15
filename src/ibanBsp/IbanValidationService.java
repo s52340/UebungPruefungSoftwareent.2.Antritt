@@ -38,6 +38,15 @@ public class IbanValidationService {
         String part3 = part1 + part2;
         return part3;
     }
+    public int[] buildArray(){
+        int[] array = new int[getFullCode().length()];
+        for (int i = 0; i < getFullCode().length(); i++) {
+            char chari = getFullCode().charAt(i);
+            int charI = chari - '0';
+            array[i] = charI;
+        }
+            return array;
+    }
 
 }
 
