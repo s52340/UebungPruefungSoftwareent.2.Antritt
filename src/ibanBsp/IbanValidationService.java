@@ -47,6 +47,26 @@ public class IbanValidationService {
         }
             return array;
     }
+    public int calcCheckSum(){
+        int result = 0;
+        int[] array = buildArray();
+        for (int i = 0; i < buildArray().length; i++) {
+           result= ((10 * result) + array[i]) % 97;
+        }
+        int pruefsummeBerechnet = 98 - (result % 97);
+        calculatedCheckSum = pruefsummeBerechnet;
+        return calculatedCheckSum;
+    }
+    public boolean isIbanCorrect(){
+        int zahl1 = calculatedCheckSum;
+        int zahl2 = getCheckSum();
+        if (zahl1 == zahl2){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 
 }
 
