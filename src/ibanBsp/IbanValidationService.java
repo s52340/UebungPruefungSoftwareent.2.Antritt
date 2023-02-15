@@ -22,4 +22,22 @@ public class IbanValidationService {
         String accountNumberString = iban.substring(4);
         return accountNumberString;
     }
+    public String getCountyCodeNumber(){  //A =10 - T=29 +00
+    char charOne = iban.charAt(0);
+    int charO = Integer.valueOf(charOne);
+    charO -= 55;
+    char charTwo = iban.charAt(1);
+    int charT = Integer.valueOf(charTwo);
+    charT -= 55;
+    String countryCodeNumber = "" + charO + "" + charT + "00";
+    return countryCodeNumber;
+    }
+    public String getFullCode(){
+        String part1 = getAccountNumber();
+        String part2 = getCountyCodeNumber();
+        String part3 = part1 + part2;
+        return part3;
+    }
+
 }
+

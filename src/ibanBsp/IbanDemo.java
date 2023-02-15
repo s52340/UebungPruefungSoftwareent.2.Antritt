@@ -9,13 +9,14 @@ public class IbanDemo {
         Scanner scanner = new Scanner(System.in);
         String inputIban = scanner.next();
 
+        // BSP IBAN: AT611904300234573201
          IbanValidationService ibanVal;
          ibanVal = new IbanValidationService(inputIban);
 
-        System.out.println(ibanVal.getCountryCode());
-        System.out.println(ibanVal.getCheckSum());
-        System.out.println( ibanVal.getAccountNumber());
-
-
+        System.out.println("Ländercode: " + ibanVal.getCountryCode());
+        System.out.println("Prüfsumme: " + ibanVal.getCheckSum());
+        System.out.println("Kontonummer: " + ibanVal.getAccountNumber());
+        System.out.println(ibanVal.getCountyCodeNumber());
+        System.out.println("Prüfzahl: " + ibanVal.getFullCode());
     }
 }
