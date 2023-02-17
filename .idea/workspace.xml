@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Event-Kalender">
-      <change afterPath="$PROJECT_DIR$/src/Uebung8Collektions/EventKalender/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung8Collektions/EventKalender/EventDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung8Collektions/EventKalender/EventKalender.java" afterDir="false" />
+    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 8: Event-Kalender fertig erstellt">
+      <change afterPath="$PROJECT_DIR$/src/Uebung8Collektions/Pegel_Verwaltung/PegelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung8Collektions/Pegel_Verwaltung/Wasserstand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung8Collektions/Pegel_Verwaltung/WasserstandManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Campus02/1.Semester/Grundlagen der Softwareentwicklung/Intellij Projekte/IBAN_Validierung&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EventDemo">
+  <component name="RunManager" selected="Application.PegelDemo">
     <configuration name="EventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uebung8Collektions.EventKalender.EventDemo" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
@@ -68,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PegelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung8Collektions.Pegel_Verwaltung.PegelDemo" />
+      <module name="UebungPruefungSoftwareent.2.Antritt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uebung8Collektions.Pegel_Verwaltung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PegelDemo" />
         <item itemvalue="Application.EventDemo" />
         <item itemvalue="Application.IbanDemo" />
       </list>
@@ -119,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676449605395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Uebung 8: Event-Kalender fertig erstellt">
+      <created>1676525644030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676525644030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,17 +159,7 @@
     <MESSAGE value="IbanBsp Iteration 2 (fertiggestellt)" />
     <MESSAGE value="IbanBsp Iteration 3 (fertiggestellt)" />
     <MESSAGE value="IbanBsp Iteration 4 (fertiggestellt) - bsp fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="IbanBsp Iteration 4 (fertiggestellt) - bsp fertig" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Uebung8Collektions/EventKalender/EventKalender.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Uebung 8: Event-Kalender fertig erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 8: Event-Kalender fertig erstellt" />
   </component>
 </project>
