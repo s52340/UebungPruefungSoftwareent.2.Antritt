@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 8: Pegel-Verwaltung fertig erstellt">
-      <change afterPath="$PROJECT_DIR$/src/FolienLV8Recursion/Zahlen0bisN/Zahlen0bisN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hauptklausur1_WS22_23/Recursion/RecursiveMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp1Arrays/NumberHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung9Rekursion/PalindromChecker/PalindromChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 10 komplett 1 - bsp1Arrays fertig">
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,35 @@
       <option name="project" value="LOCAL" />
       <updated>1676601810047</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Uebung 9: Recursion PalindromChecker fertig erstellt">
+      <created>1676861680436</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676861680436</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Folien Lv8: Recursion Zahlen0bisN fertig erstellt">
+      <created>1676861772882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676861772882</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HK 1 Recursion RecursiveMultiplication FEHLT - funktioniert NICHT.">
+      <created>1676861845604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676861845604</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Uebung 10 komplett 1 - bsp1Arrays fertig">
+      <created>1676861912534</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676861912534</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +223,11 @@
     <MESSAGE value="IbanBsp Iteration 4 (fertiggestellt) - bsp fertig" />
     <MESSAGE value="Uebung 8: Event-Kalender fertig erstellt" />
     <MESSAGE value="Uebung 8: Pegel-Verwaltung fertig erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 8: Pegel-Verwaltung fertig erstellt" />
+    <MESSAGE value="Uebung 9: Recursion PalindromChecker fertig erstellt" />
+    <MESSAGE value="Folien Lv8: Recursion Zahlen0bisN fertig erstellt" />
+    <MESSAGE value="HK 1 Recursion RecursiveMultiplication FEHLT - funktioniert NICHT." />
+    <MESSAGE value="Uebung 10 komplett 1 - bsp1Arrays fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 10 komplett 1 - bsp1Arrays fertig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -210,15 +240,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp1Arrays/NumberHelper.java</url>
-          <line>23</line>
-          <properties class="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.NumberHelper" method="removeDuplicates">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
