@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 10 komplett 1 - bsp1Arrays fertig">
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CashPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/Payment.java" afterDir="false" />
+    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment">
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/MaestroPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/PayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/PaymentJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CreditCardPayment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Campus02/1.Semester/Grundlagen der Softwareentwicklung/Intellij Projekte/IBAN_Validierung&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NumberHelper">
+  <component name="RunManager" selected="Application.PayDemo">
     <configuration name="NumberHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.NumberHelper" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
@@ -67,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PegelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung8Collektions.Pegel_Verwaltung.PegelDemo" />
+    <configuration name="PayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp3Payment.PayDemo" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung8Collektions.Pegel_Verwaltung.*" />
+          <option name="PATTERN" value="Uebung10Uebungsbeispiel1komplett.bsp3Payment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayDemo" />
         <item itemvalue="Application.NumberHelper" />
         <item itemvalue="Application.Zahlen0bisN" />
         <item itemvalue="Application.RecursiveMultiplication" />
         <item itemvalue="Application.PalindromChecker" />
-        <item itemvalue="Application.PegelDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676861912534</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment">
+      <created>1676869318480</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676869318480</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +236,8 @@
     <MESSAGE value="Folien Lv8: Recursion Zahlen0bisN fertig erstellt" />
     <MESSAGE value="HK 1 Recursion RecursiveMultiplication FEHLT - funktioniert NICHT." />
     <MESSAGE value="Uebung 10 komplett 1 - bsp1Arrays fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 10 komplett 1 - bsp1Arrays fertig" />
+    <MESSAGE value="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
