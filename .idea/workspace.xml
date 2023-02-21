@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment">
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/MaestroPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/PayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/PaymentJournal.java" afterDir="false" />
+    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 10 komplett 1 - bsp3 Hashmap implementierung liefert noch Falsche Werte; (sonst eigentlich fertig - aber fraglich richtig)">
+      <change afterPath="$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/CsvDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/DocumentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/ImageDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/PrintManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/TextDocument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp3Payment/CreditCardPayment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +44,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Campus02/1.Semester/Grundlagen der Softwareentwicklung/Intellij Projekte/IBAN_Validierung&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PayDemo">
-    <configuration name="NumberHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.NumberHelper" />
+  <component name="RunManager" selected="Application.DocumentDemo">
+    <configuration name="DocumentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung12Dokumentenverwaltung.DocumentDemo" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.*" />
+          <option name="PATTERN" value="Uebung12Dokumentenverwaltung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung9Rekursion.PalindromChecker.PalindromChecker" />
+    <configuration name="NumberHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.NumberHelper" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung9Rekursion.PalindromChecker.*" />
+          <option name="PATTERN" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DocumentDemo" />
         <item itemvalue="Application.PayDemo" />
         <item itemvalue="Application.NumberHelper" />
         <item itemvalue="Application.Zahlen0bisN" />
         <item itemvalue="Application.RecursiveMultiplication" />
-        <item itemvalue="Application.PalindromChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676869318480</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Uebung 10 komplett 1 - bsp3 Hashmap implementierung liefert noch Falsche Werte; (sonst eigentlich fertig - aber fraglich richtig)">
+      <created>1676879562835</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676879562835</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +246,8 @@
     <MESSAGE value="HK 1 Recursion RecursiveMultiplication FEHLT - funktioniert NICHT." />
     <MESSAGE value="Uebung 10 komplett 1 - bsp1Arrays fertig" />
     <MESSAGE value="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 10 komplett 1 - bsp3 Vererbung begonnen bis zur impl. MaestroPayment" />
+    <MESSAGE value="Uebung 10 komplett 1 - bsp3 Hashmap implementierung liefert noch Falsche Werte; (sonst eigentlich fertig - aber fraglich richtig)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 10 komplett 1 - bsp3 Hashmap implementierung liefert noch Falsche Werte; (sonst eigentlich fertig - aber fraglich richtig)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,6 +260,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/PrintManager.java</url>
+          <line>7</line>
+          <properties class="Uebung12Dokumentenverwaltung.PrintManager" method="addDocument">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
