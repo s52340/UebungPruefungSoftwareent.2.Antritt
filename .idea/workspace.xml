@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 13 Vererbung1 - fertig implementiert - upcasting/downcasting ev. falsch">
-      <change afterPath="$PROJECT_DIR$/src/Uebung13Vererbung1/bspLand/Bundesland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung13Vererbung1/bspLand/Bundesstaat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung13Vererbung1/bspLand/Land.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung13Vererbung1/bspLand/LandDemo.java" afterDir="false" />
+    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="Uebung 13 Vererbung1 -bsp Land fertig implementiert - richtig">
+      <change afterPath="$PROJECT_DIR$/src/Uebung14Vererbung2/bspFiguren/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung14Vererbung2/bspFiguren/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung14Vererbung2/bspFiguren/FigureManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung14Vererbung2/bspFiguren/FigurenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung14Vererbung2/bspFiguren/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung9Rekursion/PalindromChecker/ErstelltPalindrom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hauptklausur1_WS22_23/Recursion/RecursiveMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hauptklausur1_WS22_23/Recursion/RecursiveMultiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,26 @@
       <recent name="Uebung13Vererbung1.bspKonto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LandDemo">
-    <configuration name="DocumentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung12Dokumentenverwaltung.DocumentDemo" />
+  <component name="RunManager" selected="Application.ErstelltPalindrom">
+    <configuration name="ErstelltPalindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung9Rekursion.PalindromChecker.ErstelltPalindrom" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung12Dokumentenverwaltung.*" />
+          <option name="PATTERN" value="Uebung9Rekursion.PalindromChecker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FigurenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung14Vererbung2.bspFiguren.FigurenDemo" />
+      <module name="UebungPruefungSoftwareent.2.Antritt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uebung14Vererbung2.bspFiguren.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.NumberHelper" />
+    <configuration name="RecursiveMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hauptklausur1_WS22_23.Recursion.RecursiveMultiplication" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung10Uebungsbeispiel1komplett.bsp1Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp3Payment.PayDemo" />
-      <module name="UebungPruefungSoftwareent.2.Antritt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Uebung10Uebungsbeispiel1komplett.bsp3Payment.*" />
+          <option name="PATTERN" value="Hauptklausur1_WS22_23.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ErstelltPalindrom" />
+        <item itemvalue="Application.RecursiveMultiplication" />
+        <item itemvalue="Application.FigurenDemo" />
         <item itemvalue="Application.LandDemo" />
         <item itemvalue="Application.KontoDemo" />
-        <item itemvalue="Application.DocumentDemo" />
-        <item itemvalue="Application.PayDemo" />
-        <item itemvalue="Application.NumberHelper" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676961458920</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Uebung 13 Vererbung1 -bsp Land fertig implementiert - richtig">
+      <created>1677035102789</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677035102789</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,20 +277,12 @@
     <MESSAGE value="Uebung 10 komplett 1 - bsp3 Hashmap implementierung liefert noch Falsche Werte; (sonst eigentlich fertig - aber fraglich richtig)" />
     <MESSAGE value="Uebung 12 Dokumentenverwaltung - fertig implementiert - sollte stimmen" />
     <MESSAGE value="Uebung 13 Vererbung1 - fertig implementiert - upcasting/downcasting ev. falsch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 13 Vererbung1 - fertig implementiert - upcasting/downcasting ev. falsch" />
+    <MESSAGE value="Uebung 13 Vererbung1 -bsp Land fertig implementiert - richtig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 13 Vererbung1 -bsp Land fertig implementiert - richtig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Uebung9Rekursion/PalindromChecker/PalindromChecker.java</url>
-          <line>11</line>
-          <properties class="Uebung9Rekursion.PalindromChecker.PalindromChecker" method="check">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Uebung12Dokumentenverwaltung/PrintManager.java</url>
           <line>7</line>
@@ -292,5 +294,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="figures.get(1)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
