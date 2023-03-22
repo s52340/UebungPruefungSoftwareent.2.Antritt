@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment="MehrdimensionaleArrays - verstaendnis, Uebung 15 - Schiffe versenken fertig (andere bsp fehlen noch) , Uebung 6 (Wörter Großbuchstaben und CSV Teilen fertig), persönliche Übung Array Sortierung mit Markus ( noch nicht fertig)">
-      <change afterPath="$PROJECT_DIR$/src/MarkusUebungPruefung/Hashmap/Bsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung15GemischtesUebungsblatt/Bilder/BilderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung15GemischtesUebungsblatt/Bilder/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung15GemischtesUebungsblatt/CovidImpfstoffAuswahl/DemoImpfung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung15GemischtesUebungsblatt/CovidImpfstoffAuswahl/VaccinationAppointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung15GemischtesUebungsblatt/Rekursion/WalkingDemoApp.java" afterDir="false" />
+    <list default="true" id="9a31233b-8e85-4cc7-844f-a28b8e754264" name="Changes" comment=" Uebung 15 - fertig&#10;  (persönliche Übung Array Sortierung mit Markus ( noch nicht fertig))">
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/array/IndexFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/oop/AverageOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/oop/CalculatorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/oop/DemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/oop/FactorialOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/oop/SummationOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/recursion/palindrom/PalindromChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/stackUndAnalyse/products/DemoStackApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/stackUndAnalyse/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Altklausur070122/stackUndAnalyse/products/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp2RecursionOrte_CheckiNid/DemoNachbarn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uebung10Uebungsbeispiel1komplett/bsp2RecursionOrte_CheckiNid/Ort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meinVersuch/Krankenhaus/DemoLKH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meinVersuch/Krankenhaus/Krankenschwester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meinVersuch/Krankenhaus/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meinVersuch/Krankenhaus/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +52,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Campus02/1.Semester/Grundlagen der Softwareentwicklung/Intellij Projekte/UebungPruefung1&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Campus02/1.Semester/Grundlagen der Softwareentwicklung/Intellij Projekte/UebungPruefung2.Antritt_HK1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -51,13 +64,13 @@
       <recent name="Uebung13Vererbung1.bspKonto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BilderApp">
-    <configuration name="BilderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung15GemischtesUebungsblatt.Bilder.BilderApp" />
+  <component name="RunManager" selected="Application.DemoNachbarn">
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Altklausur070122.oop.DemoApp" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung15GemischtesUebungsblatt.Bilder.*" />
+          <option name="PATTERN" value="Altklausur070122.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung6Strings.Bsp2CSVTeilen.CSVDemo" />
+    <configuration name="DemoNachbarn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uebung10Uebungsbeispiel1komplett.bsp2RecursionOrte_CheckiNid.DemoNachbarn" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung6Strings.Bsp2CSVTeilen.*" />
+          <option name="PATTERN" value="Uebung10Uebungsbeispiel1komplett.bsp2RecursionOrte_CheckiNid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoImpfung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung15GemischtesUebungsblatt.CovidImpfstoffAuswahl.DemoImpfung" />
+    <configuration name="DemoStackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Altklausur070122.stackUndAnalyse.products.DemoStackApp" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung15GemischtesUebungsblatt.CovidImpfstoffAuswahl.*" />
+          <option name="PATTERN" value="Altklausur070122.stackUndAnalyse.products.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Picture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung15GemischtesUebungsblatt.Bilder.Picture" />
+    <configuration name="IndexFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Altklausur070122.array.IndexFinder" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung15GemischtesUebungsblatt.Bilder.*" />
+          <option name="PATTERN" value="Altklausur070122.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalkingDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uebung15GemischtesUebungsblatt.Rekursion.WalkingDemoApp" />
+    <configuration name="PalindromChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Altklausur070122.recursion.palindrom.PalindromChecker" />
       <module name="UebungPruefungSoftwareent.2.Antritt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uebung15GemischtesUebungsblatt.Rekursion.*" />
+          <option name="PATTERN" value="Altklausur070122.recursion.palindrom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BilderApp" />
-        <item itemvalue="Application.DemoImpfung" />
-        <item itemvalue="Application.WalkingDemoApp" />
-        <item itemvalue="Application.Picture" />
-        <item itemvalue="Application.CSVDemo" />
+        <item itemvalue="Application.DemoNachbarn" />
+        <item itemvalue="Application.DemoStackApp" />
+        <item itemvalue="Application.DemoApp" />
+        <item itemvalue="Application.PalindromChecker" />
+        <item itemvalue="Application.IndexFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679000930573</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=" Uebung 15 - fertig&#10;  (persönliche Übung Array Sortierung mit Markus ( noch nicht fertig))">
+      <created>1679155869059</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679155869059</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +314,8 @@
     <MESSAGE value="Uebung 13 Vererbung1 -bsp Land fertig implementiert - richtig" />
     <MESSAGE value="Uebung 14 Vererbung 2 begonnen; &#10;Recursion durchbesprochen + Kommentare mit Mani" />
     <MESSAGE value="MehrdimensionaleArrays - verstaendnis, Uebung 15 - Schiffe versenken fertig (andere bsp fehlen noch) , Uebung 6 (Wörter Großbuchstaben und CSV Teilen fertig), persönliche Übung Array Sortierung mit Markus ( noch nicht fertig)" />
-    <option name="LAST_COMMIT_MESSAGE" value="MehrdimensionaleArrays - verstaendnis, Uebung 15 - Schiffe versenken fertig (andere bsp fehlen noch) , Uebung 6 (Wörter Großbuchstaben und CSV Teilen fertig), persönliche Übung Array Sortierung mit Markus ( noch nicht fertig)" />
+    <MESSAGE value=" Uebung 15 - fertig&#10;  (persönliche Übung Array Sortierung mit Markus ( noch nicht fertig))" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Uebung 15 - fertig&#10;  (persönliche Übung Array Sortierung mit Markus ( noch nicht fertig))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,6 +329,15 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Altklausur070122/stackUndAnalyse/products/DemoStackApp.java</url>
+          <line>43</line>
+          <properties class="Altklausur070122.stackUndAnalyse.products.DemoStackApp" method="countItemsByCategoryName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -315,5 +345,10 @@
         <watch expression="figures.get(1)" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UebungPruefungSoftwareent_2_Antritt$DemoNachbarn.ic" NAME="DemoNachbarn Coverage Results" MODIFIED="1679494825426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Uebung10Uebungsbeispiel1komplett.bsp2RecursionOrte.*</FILTER>
+    </SUITE>
   </component>
 </project>
